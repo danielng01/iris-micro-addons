@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Click-Script
+Icon=utilities-terminal
+Exec=bash -c '"$(dirname "%k")"/../../iris-micro 3400 100'
+Categories=Application;
+Name[en_US]=halogen
