@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=Click-Script
+Icon=utilities-terminal
+Exec=bash -c '"$(dirname "%k")"/reset.sh;$SHELL'
+Categories=Application;
+Name[en_US]=reset
