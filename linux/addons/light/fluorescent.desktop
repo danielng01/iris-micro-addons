@@ -3,6 +3,6 @@ Type=Application
 Terminal=true
 Name=Click-Script
 Icon=utilities-terminal
-Exec=bash -c '"$(dirname "%k")"/../../iris-micro 4200 100'
+Exec=bash -c '"$(dirname "%k")"/../../iris-micro.sh 4200 100'
 Categories=Application;
 Name[en_US]=fluorescent

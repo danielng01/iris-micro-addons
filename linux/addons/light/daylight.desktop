@@ -3,6 +3,6 @@ Type=Application
 Terminal=true
 Name=Click-Script
 Icon=utilities-terminal
-Exec=bash -c '"$(dirname "%k")"/../../iris-micro 6500 100'
+Exec=bash -c '"$(dirname "%k")"/../../iris-micro.sh 6500 100'
 Categories=Application;
 Name[en_US]=daylight

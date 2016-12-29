@@ -3,6 +3,6 @@ Type=Application
 Terminal=true
 Name=Click-Script
 Icon=utilities-terminal
-Exec=bash -c '"$(dirname "%k")"/../../iris-micro 1900 100'
+Exec=bash -c '"$(dirname "%k")"/../../iris-micro.sh 1900 100'
 Categories=Application;
 Name[en_US]=candle
