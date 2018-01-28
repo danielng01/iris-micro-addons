@@ -9,6 +9,13 @@ namespace ExecuteOnUnlock
 {
     class Program
     {
+        
+        /**
+        * @link https://pipiscrew.com
+        * @copyright Copyright (c) 2018 PipisCrew
+        * @license Licensed under the MIT license
+        */
+        
         WindowsSession session = new WindowsSession();
         NotifyIcon icn = new NotifyIcon();
 
@@ -34,7 +41,7 @@ namespace ExecuteOnUnlock
         {
             session.StateChanged += new EventHandler<SessionSwitchEventArgs>(session_StateChanged);
 
-            //create conextmenustrip
+            //create contextmenustrip
             ContextMenuStrip contextMenuStrip = new ContextMenuStrip();
             contextMenuStrip.Items.Add("run");
             contextMenuStrip.Items.Add("exit");
