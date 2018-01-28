@@ -1,2 +1,0 @@
-State: SessionLock		Time: 1/27/2018 11:06:18 PM 
-State: SessionUnlock		Time: 1/27/2018 11:06:23 PM 
